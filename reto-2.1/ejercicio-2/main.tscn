@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://yan65585pn3v"]
+
+[ext_resource type="Script" uid="uid://c0o33we3hhdjq" path="res://panel.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://cacfgxofolcxb" path="res://player_base.tscn" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=825269484]
+script = ExtResource("1_0xm2m")
+
+[node name="Hud" type="Label" parent="." unique_id=294729946]
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 80.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 22
+
+[node name="Player" parent="." unique_id=890924131 instance=ExtResource("1_ig7tw")]
+position = Vector2(576, 500)

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://blan6cy0u1xka"]
+
+[ext_resource type="Script" uid="uid://c0phjba1oy46k" path="res://sondeo_eventos.gd" id="1_apia6"]
+
+[node name="Node2D" type="Node2D" unique_id=914281093]
+script = ExtResource("1_apia6")
+
+[node name="Label" type="Label" parent="." unique_id=1050527786]
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 80.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 26
